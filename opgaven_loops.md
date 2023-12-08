@@ -2,11 +2,13 @@
 
 Druk de eerste 10 natuurlijke getallen af met een while loop.
 
-Verlaat de loop wanneer i gelijk is aan 3. 
+Extra oefeningen:
 
-Ga door naar de volgende iteratie wanneer i gelijk is aan 3. 
+Verlaat de loop wanneer i gelijk is aan 3.
 
-Druk een bericht af zodra de voorwaarde onwaar is
+Wees creatief en print iets wanneer een bepaalde waarde gelijk is aan een specifiek getal.
+
+Vraag om een start getal en een eind getal van de gebruiker en print alle oneven getallen
 
 
 ### Oefening 2
