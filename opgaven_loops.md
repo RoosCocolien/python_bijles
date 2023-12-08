@@ -1,14 +1,19 @@
 ### Oefening 1
 
-Druk de eerste 10 natuurlijke getallen af met een while loop
-Verlaat de loop wanneer i gelijk is aan 3
-Ga door naar de volgende iteratie wanneer i gelijk is aan 3
+Druk de eerste 10 natuurlijke getallen af met een while loop.
+
+Verlaat de loop wanneer i gelijk is aan 3. 
+
+Ga door naar de volgende iteratie wanneer i gelijk is aan 3. 
+
 Druk een bericht af zodra de voorwaarde onwaar is
 
 
 ### Oefening 2
-Schrijf een programma om een getallenpatroon af te drukken met behulp van een for .. in … - loop.
-Vraag aan de gebruiker hoeveel rijen er afgedrukt moeten worden.
+Schrijf een programma om een getallenpatroon af te drukken met behulp van een for .. in … - loop. 
+
+Vraag aan de gebruiker hoeveel rijen er afgedrukt moeten worden. 
+
 Tip: Maak gebruik van een dubbele loop en de range() functie
 
 Voorbeeld:
