@@ -13,7 +13,7 @@ Voeg de volgende onderdelen toe:
 - Vraag de gebruiker om meerdere getallen tot de gebruiker stop invoert
 - Sla deze getallen op in een lijst
 - Herschrijf je functie zodat de functie een lijst ontvangt als argument
-- Laat je functie de uitkomst returnen
+- Laat je functie de uitkomst returneni
 
 
 ## Oefening 3
