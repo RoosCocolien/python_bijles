@@ -9,7 +9,10 @@ Schrijf een python-programma (verkeerslicht) dat controleert op de volgende voor
 - Als het licht rood is, moet de auto stoppen
 - Bij een andere input: geef een foutmelding
 
-Tip: vraag de gebruiker welke kleur het verkeerslicht heeft
+Tips:
+- vraag de gebruiker welke kleur het verkeerslicht heeft
+- gebruik een while loop in combinatie met if/else statement
+- sla de toegestane kleuren op in een lijst
 
 Voorbeeld:
 ```
@@ -33,14 +36,18 @@ reinier, redder, droommoord, racecar, legovogel, nedertreden, meetsysteem, kok, 
 
 Extra:
 - Maak een functie die True of False returned
+- Voeg een while loop toe zodat de gebruiker om een woord wordt gevraagd totdat de gebruiker 'stop' of 'exit' invoert
 
 ## Vraag 3
-Schrijf een functie (```is_schrikkeljaar()```) die 1 parameter accepteert (jaartal). De functie moet controleren of het ingevoerde jaartaal een schrikkeljaar is of niet.
-De functie geeft True of False terug.
+Schrijf een functie (```is_schrikkeljaar()```) die 1 parameter accepteert (jaartal). De functie moet controleren of het ingevoerde jaartal een schrikkeljaar is of niet.  
+Extra:
+- De functie geeft True of False terug.
+- Voeg een while loop toe die de gebruiker jaartallen blijft vragen tot de gebruiker 'stop' of 'exit' invoert.
 
 Schrikkeljaar regels:
 - Een jaartal dat deelbaar is door 4, maar niet door 100, is een schrikkeljaar
 - Het jaartal is ook een schrikkeljaar als het deelbaar is door 400
+- Andere jaartallen deelbaar door 100 zijn gewone jaren
 
 Voorbeelden:
 ```
@@ -76,7 +83,12 @@ Vraag vervolgens welke bewerking gedaan moet worden: optellen, aftrekken, delen,
 Voer de gekozen bewerking uit op de getallen. Toon niet alleen het antwoord, maar ook de bewerking.
 
 Schrijf vier functies, 1 voor elke wiskundige bewerking:
-```optellen(), aftrekken(), vermenigvuldigen(), delen()```
+```
+optellen()
+aftrekken()
+vermenigvuldigen()
+delen()
+```
 
 ## Vraag 6
 Schrijf een programma dat een woord van de gebruiker accepteert en het omdraait.
