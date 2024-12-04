@@ -117,4 +117,33 @@ Voer een getal tussen 100 en 500 in: 99
 Onjuist nummer, vul a.u.b. een geldig nummer in:
 Voer een getal tussen 100 en 500 in: 101
 Het gegeven nummer 101 valt binnen het bereik.
+
+```
+### Oefening 9
+
+Blijf de gebruiker vragen om een getal, na elke invoer moet de som van de tot dan ingevulde getallen afgedrukt worden. Blijf dit doen totdat de gebruiker 'stop' invoert.
+
+Voorbeeld:
+
+```
+Voer een getal in: 12
+De som tot nu toe is 12
+Voer een getal in: 5
+De som tot nu toe is 17
+Voer een getal in: stop
+Doei!
+```
+
+### Oefening 10
+
+Vraag de gebruiker om een getal (bijv. 429). Print de som van alle cijfers in dit geval (in dit geval: 4+2+9=15)
+
+### Oefening 11
+
+Vraag de gebruiker om een getal. Print uit hoe vaak je het door 2 kan delen totdat het resultaat kleiner of gelijk aan 1 is.
+
+Voorbeeld:
+```
+Voer een getal in: 50
+Je kan 50 6 keer door twee delen totdat het kleiner of gelijk is aan 1.
 ```
