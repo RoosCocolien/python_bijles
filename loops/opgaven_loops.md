@@ -136,7 +136,13 @@ Doei!
 
 ### Oefening 10
 
-Vraag de gebruiker om een getal (bijv. 429). Print de som van alle cijfers in dit geval (in dit geval: 4+2+9=15)
+Vraag de gebruiker om een getal (bijv. 429). Print de som van alle cijfers in dit geval (in dit geval: 4+2+9=15) Het moet voor getallen werken met willekeurig aantal cijfers (dit niet alleen drie!)
+
+Voorbeeld:
+```
+Voer een getal in: 55001
+De som van alle cijfers van 55001 is: 11
+```
 
 ### Oefening 11
 

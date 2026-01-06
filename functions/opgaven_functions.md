@@ -73,4 +73,15 @@ Geef woord 2: Laptop
 De woorden hebben 2 tekens gemeen
 ```
 
+## Oefening 8
+
+Schrijf een functie die twee lijsten met getallen krijgt als parameters. Bereken de som van de verschillen per element. Als de lijsten niet dezelfde lengte hebben geef dan de string 'Fout! Lijsten hebben niet dezelfde lengte' terug.
+
+Voorbeeld:
+```
+lijst1 = [1,2,3]
+lijst2 = [1,4,6]
+print(somLijsten(lijst1, lijst2))
+5 # Verschil tussen 1 en 1 is 0, verschil tussen 2 en 4 is 2, en verschil tussen 3 en 6 is 3. Som van al deze verschillen is 5
+```
 
