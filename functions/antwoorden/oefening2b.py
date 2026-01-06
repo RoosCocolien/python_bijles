@@ -1,6 +1,6 @@
-def optellen(numbers):
-    totaal = sum(numbers)
+def optellen(nummers):
+    totaal = sum(nummers)
 
     return totaal
 
-print(sum([8, 2, 3, 0, 7]))
+print(optellen([8, 2, 3, 0, 7]))

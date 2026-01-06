@@ -1,4 +1,4 @@
-def somLijsten(lijst1, lijst2):
+def som_lijsten(lijst1, lijst2):
     if len(lijst1) != len(lijst2):
         return 'Fout! Lijsten hebben niet dezelfde lengte'
     som = 0
@@ -6,4 +6,4 @@ def somLijsten(lijst1, lijst2):
         som += abs(lijst1[i] - lijst2[i])
     return som
 
-print(somLijsten([1,2,3], [1,4,6]))
+print(som_lijsten([1,2,3], [1,4,6]))

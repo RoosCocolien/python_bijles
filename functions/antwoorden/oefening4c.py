@@ -1,5 +1,5 @@
-def string_reverse(string):
-    reversed_string = (string[::-1])
-    return reversed_string
+def draai_om(woord):
+    omgedraaid_woord = (woord[::-1])
+    return omgedraaid_woord
 
-print(string_reverse('1234abcd'))
+print(draai_om('1234abcd'))

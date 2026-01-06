@@ -1,22 +1,22 @@
-def string_test(string):
-    upper_case = 0
-    lower_case = 0
+def letters_tellen(woord):
+    hoofdletters = 0
+    kleine_letters = 0
 
-    for char in string:
+    for char in woord:
         if char.isupper():
-            upper_case += 1
+            hoofdletters += 1
         elif char.islower():
-            lower_case += 1
+            kleine_letters += 1
         else:
             pass
 
-    return [upper_case, lower_case]
+    return [hoofdletters, kleine_letters]
 
-string = input("Voer een zin in: ")
-result = string_test(string)
-print(result)
-print("Originele string:", string)
+zin = input("Voer een zin in: ")
+resultaat = letters_tellen(zin)
+print(resultaat)
+print("Originele string:", zin)
 
-print("Aantal hoofdletters:", result[0])
-print("Aantal kleine letters:", result[1])
-print("Totaal aan characters:", len(string))
+print("Aantal hoofdletters:", resultaat[0])
+print("Aantal kleine letters:", resultaat[1])
+print("Totaal aan chars:", len(zin))

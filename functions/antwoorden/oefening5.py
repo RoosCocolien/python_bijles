@@ -1,16 +1,16 @@
-def string_test(string):
-    dict_upper_lower = {"UPPER_CASE": 0, "LOWER_CASE": 0}
-    for char in string:
+def letters_tellen(woord):
+    upper_lower = {"UPPER_CASE": 0, "LOWER_CASE": 0}
+    for char in woord:
         if char.isupper():
-            dict_upper_lower["UPPER_CASE"] += 1
+            upper_lower["UPPER_CASE"] += 1
         elif char.islower():
-            dict_upper_lower["LOWER_CASE"] += 1
+            upper_lower["LOWER_CASE"] += 1
         else:
             pass
 
-    print("Originele string : ", string)
-    print("Aantal hoofdletters : ", dict_upper_lower["UPPER_CASE"])
-    print("Aantal kleine letters : ", dict_upper_lower["LOWER_CASE"])
+    print("Originele string : ", woord)
+    print("Aantal hoofdletters : ", upper_lower["UPPER_CASE"])
+    print("Aantal kleine letters : ", upper_lower["LOWER_CASE"])
 
 
-string_test('The quick Brown Fox')
+letters_tellen('The quick Brown Fox')

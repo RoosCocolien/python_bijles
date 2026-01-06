@@ -1,12 +1,11 @@
-def string_reverse(string):
+def draai_om(woord):
 
-    reversed_string = ''
-    index = len(string)
+    woord_omgedraaid = ''
+    index = len(woord)
 
     while index > 0:
-        reversed_string += string[ index - 1 ]
+        woord_omgedraaid += woord[ index - 1 ]
         index = index - 1
-    return reversed_string
+    return woord_omgedraaid
 
-print(string_reverse('1234abcd'))
-
+print(draai_om('1234abcd'))

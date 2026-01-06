@@ -1,5 +1,5 @@
-def max_of_three( x, y, z ):
+def max_van_drie( x, y, z ):
     lst = [x, y, z]
     return max(lst)
 
-print(max_of_three(3, 6, -5))
+print(max_van_drie(3, 6, -5))

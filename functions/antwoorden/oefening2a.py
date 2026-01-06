@@ -1,7 +1,7 @@
-def sum(numbers):
+def optellen(nummers):
     total = 0
-    for x in numbers:
+    for x in nummers:
         total += x
     return total
 
-print(sum([8, 2, 3, 0, 7]))
+print(optellen([8, 2, 3, 0, 7]))

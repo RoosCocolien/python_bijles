@@ -1,6 +1,6 @@
-def string_test(string):
+def letters_tellen(woord):
     dict_upper_lower = {"UPPER_CASE": 0, "LOWER_CASE": 0}
-    for char in string:
+    for char in woord:
         if char.isupper():
             dict_upper_lower["UPPER_CASE"] += 1
         elif char.islower():
@@ -11,11 +11,11 @@ def string_test(string):
     return dict_upper_lower
 
 
-string = input("Voer een zin in: ")
-result = string_test(string)
+zin = input("Voer een zin in: ")
+result = letters_tellen(zin)
 print(result)
-print("Originele string:", string)
+print("Originele string:", zin)
 
 print("Aantal hoofdletters:", result['UPPER_CASE'])
 print("Aantal kleine letters:", result['LOWER_CASE'])
-print("Totaal aan characters:", len(string))
+print("Totaal aan characters:", len(zin))

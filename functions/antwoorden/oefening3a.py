@@ -1,7 +1,7 @@
-def multiply(numbers):
-    total = 1
-    for x in numbers:
-        total *= x
-    return total
+def vermenigvuldigen(nummers):
+    totaal = 1
+    for x in nummers:
+        totaal *= x
+    return totaal
 
-print(multiply((8, 2, 3, -1, 7)))
+print(vermenigvuldigen((8, 2, 3, -1, 7)))

@@ -1,4 +1,4 @@
-def gemeen(woord1,woord2):
+def aantal_letters_gemeen(woord1,woord2):
     tekens = ""
     for letter in woord1:
         if (letter in woord2) and (letter not in tekens):
@@ -8,7 +8,7 @@ def gemeen(woord1,woord2):
 woord1 = input("Geef woord 1: ")
 woord2 = input("Geef woord 2: ")
 
-num = gemeen( woord1, woord2 )
+num = aantal_letters_gemeen(woord1, woord2)
 
 if num <= 0:
     print( "De woorden delen geen tekens." )
